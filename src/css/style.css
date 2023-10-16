@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+}
+
+
+.btn-active{
+    /* background-image: linear-gradient(180deg, red, deeppink); */
+    background-color: deeppink;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    /* background-image: linear-gradient(180deg, red, deeppink); */
+    background-color: gray;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    border:1px solid black
+}
+
+.banner{
+    background-image: url('../assets/images/banner.jpg');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: contain;
+}
+
+.search{
+    background-color: white;
+    border-radius: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.tab-btn{
+    color: black;
+}
+.active-btn{
+    color: deeppink;
+    border-bottom: 2px solid deeppink;
+}
+
+.breakfast{
+    background-color: white;
+    display: none;
+}
+
+.lunch{
+    background-color: white;
+    display: none;
+}
+
+.dinner{
+    background-color: white;
+    display: none;
+}
+.breakfast-active{
+    background-color: white;
+}
+.lunch-active{
+    background-color: white;
+}
+.dinner-active{
+    background-color: white;
+}
+
+.breakfast-only:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+
+
